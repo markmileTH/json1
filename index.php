@@ -15,6 +15,9 @@
           var url = "https://cj-android-demon.herokuapp.com/json1.php"
           $.get(url,(Date,status)=>{
                console.log(Date);
+               var jData JSON.parse(data);
+               console.log(jData.fname)
+               console.log(jData.lname)
 
           });
      };
